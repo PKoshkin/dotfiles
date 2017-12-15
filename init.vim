@@ -42,3 +42,4 @@ let g:deoplete#enable_refresh_always = 1
 inoremap <expr> <S-Tab>  pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 let g:echodoc_enable_at_startup = 1
+set guicursor=
